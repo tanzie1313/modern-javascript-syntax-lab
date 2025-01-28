@@ -118,30 +118,13 @@ const anotherCar = {
 // d. Console log the `userProfile` object to see the result.
 //
 // Your code here:
-const propertyName = 
-
-
-const fruitInventory = {
-    apples: 2,
-    oranges: 4,
-  };
-  
-  const selectedFruit = 'apples';
-  // Using the `selectedFruit` variable as a dynamic key:
-  const selectedFruitCount = fruitInventory[selectedFruit];
-  
-  console.log(selectedFruitCount);
-  // Prints: 2
-
-  const fruitType = 'bananas';
-
-// Using the `fruitType` variable as a dynamic key:
-const FruitInventory = {
-  [fruitType]: 5,
+const propertyName = "username";
+const userProfile = {
+  [propertyName]: 'user1313',
 };
+console.log(userProfile);
 
-console.log(FruitInventory); 
-// Prints: { bananas: 5 }
+
 
   
 
