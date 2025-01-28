@@ -124,6 +124,42 @@ const userProfile = {
 };
 console.log(userProfile);
 
+// question 7 was working through import/export syntax. and package.json
+
+// ! Exercise 8:
+// a. Create a function with two parameters, `noun` and `adjective`.
+// 
+// b. Give `noun` a default value of "cat" and `adjective` a default value of 
+//    "orange".
+//
+// c. The function should log a sentence 'The cat is orange.' by default, but 
+//    should substitute the appropriate parameters when it is supplied with 
+//    arguments.
+//
+// Your code here:
+function describe(noun = "cat", adjective = "orange") {
+    console.log(`The ${noun} is ${adjective}.`);
+}
+
+
+// ! Exercise 9:
+// a. Convert the following `if...else` statement into a ternary:
+//
+//    if (pizza === 'tasty') {
+//      console.log('yum');
+//    } else {
+//      console.log('yuck');
+//    }
+//
+// Starting code (don't modify this):
+
+const pizza = 'tasty';
+
+// Your code here:
+pizza === 'tasty' ? console.log('yum') : console.log('yuck');
+
+
+
 
 
   
