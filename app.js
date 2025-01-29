@@ -120,7 +120,7 @@ const anotherCar = {
 // Your code here:
 const propertyName = "username";
 const userProfile = {
-  [propertyName]: 'user1313',
+  [propertyName]: "user1313",
 };
 console.log(userProfile);
 
@@ -179,7 +179,7 @@ pizza === 'tasty' ? console.log('yum') : console.log('yuck');
 const localLangConfig = null; // Change to 'es', 'fr', etc., or leave it `null`.
 
 // Your code here:
-const lang = localLangConfig || 'en';
+const lang = localLangConfig || "en";
 console.log(lang);
 
 
@@ -215,9 +215,9 @@ console.log(theme);
 const adventurer = {
     name: 'Alice',
   };
-  let catName = adventurer.cat?.age?.name;
-    console.log(catName);
-  // Your code here:
+    console.log(adventurer.cat?.age?.name) 
+   
+
   
   
 
